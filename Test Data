@@ -1,0 +1,117 @@
+C:\Users\liamc\.jdks\openjdk-15\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\lib\idea_rt.jar=57321:C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.3\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\liamc\Downloads\csc8014-code-examples-master\csc8014-code-examples-master\Coursework\out\production\Coursework Test
+****Customer Records Created****
+
+Name: John Testman
+Date of Birth: Thu Feb 11 00:00:00 GMT 1982
+Age: 39
+Customer Number: JT-2021-10
+Rented Bikes: null
+Gold Class Member: false
+Date of Issue: Fri Feb 19 14:08:49 GMT 2021
+
+Name: Barry Anderson
+Date of Birth: Sun Dec 15 00:00:00 GMT 1991
+Age: 29
+Customer Number: BA-2021-12
+Rented Bikes: null
+Gold Class Member: true
+Date of Issue: Fri Feb 19 14:08:49 GMT 2021
+
+Name: Harry  Potter
+Date of Birth: Wed Dec 26 00:00:00 GMT 1990
+Age: 30
+Customer Number: HP-2021-13
+Rented Bikes: null
+Gold Class Member: true
+Date of Issue: Fri Feb 19 14:08:49 GMT 2021
+
+
+****Bikes Created*****
+
+
+Electric Bike1 Serial Number: BK200
+Battery Charge? true
+Bike Currently Rented? false
+
+Road Bike1 Serial Number: BK201
+Road Bike2 Serial Number: BK202
+
+
+****Bikes available to rent****
+
+
+Available electric rental bikes: 10
+Available road rental bikes: 50
+Rented Bikes
+
+
+****Available Bikes After Rental****
+
+
+Available electric rental bikes: 9
+Available road rental bikes: 49
+
+
+****List of Bikes Currently Rented Out*****
+
+
+List of Rented Bikes:
+Serial Number BK203
+Customer number HP-2021-13
+Battery Level false
+Serial Number BK205
+Customer number BA-2021-12
+
+
+****Bikes Currently Rented Out*****
+
+
+Bike Rented to: Barry Anderson
+ Serial Number BK205
+Customer number BA-2021-12
+
+Bike Rented to: Harry  Potter
+ Serial Number BK203
+Customer number HP-2021-13
+Battery Level false
+
+
+****Cr2 Terminate Rental Test - Bike now*****
+
+
+Customers rented bike:
+Serial Number BK205
+Customer number BA-2021-12
+
+Bike:
+
+Serial Number BK205
+Customer number BA-2021-12
+
+
+****Bike After rental after Termination*****
+
+
+Serial Number BK205
+Customer number null
+null
+
+
+****Cr2 After rental after Termination*****
+
+
+Name: Barry Anderson
+Rented bike: null
+
+
+****Bike Currently Rented to Cr3*****
+
+
+Name: Harry  Potter
+Date of Birth: Wed Dec 26 00:00:00 GMT 1990
+Age: 30
+Rented Bike: Serial Number BK203
+Customer number HP-2021-13
+Battery Level false
+
+Process finished with exit code 0
